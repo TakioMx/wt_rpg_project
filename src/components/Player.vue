@@ -9,13 +9,13 @@ export default {
     return {
       x: {
         type: Number,
-        required: true
+        default: 5
       },
       y: {
         type: Number,
-        required: true
+        default: 5
       },
-      level: {
+      /* level: {
         type: Number,
         required: true
       },
@@ -30,10 +30,10 @@ export default {
       potions: {
         type: Number,
         required: true
-      },
+      }, */
       fieldCurrent: {
         type: String,
-        required: true
+        default: ' '
       }
     }
   }
